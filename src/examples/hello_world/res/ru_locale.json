@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "type": "button",
+
+      "ok": "OK",
+      "yes": "Да",
+      "no": "Нет",
+      "cancel": "Отмена",
+      "abort": "Отказ",
+      "retry": "Продолжить",
+      "ignore": "Пропустить",
+      "try_continue": "Попробовать продолжить",
+      "complete": "Готово"
+    },
+    {
+      "type": "window",
+
+      "pin": "Прикрепить окно",
+      "unpin": "Открепить окно",
+      "dark_theme": "Темная тема",
+      "light_theme": "Светлая тема",
+      "switch_lang": "Сменить язык"
+    },
+    {
+      "type": "input",
+
+      "copy": "Копировать",
+      "cut": "Вырезать",
+      "paste": "Вставить",
+      "undo": "Отменить",
+      "redo": "Вернуть отмену"
+    },
+    {
+      "type": "main_frame",
+
+      "caption": "Привет",
+      "whats_your_name_text": "Как ваше имя?",
+      "ok_button": "Приятно познакомиться!",
+      "ok_message_caption": "Хорошего дня!",
+      "hello_text": "Привет, ",
+      "cross_message_caption": "Подтверждение закрытия",
+      "confirm_close_text": "Закрыть приложение?\n\n"
+    }
+  ]
+}

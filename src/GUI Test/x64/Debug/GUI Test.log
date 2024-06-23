@@ -1,0 +1,2 @@
+﻿  GUI Test.cpp
+C:\Users\user\Desktop\wui-main\include\wui\window\window.hpp(3,10): error C1083: Не удается открыть файл включение: wui/window/i_window.hpp: No such file or directory,

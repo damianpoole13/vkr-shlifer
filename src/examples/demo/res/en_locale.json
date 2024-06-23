@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "type": "button",
+
+      "ok": "OK",
+      "yes": "Yes",
+      "no": "No",
+      "cancel": "Cancel",
+      "abort": "Abort",
+      "retry": "Retry",
+      "ignore": "Ignore",
+      "try_continue": "Try continue",
+      "complete": "Complete"
+    },
+    {
+      "type": "window",
+
+      "pin": "Pin the window",
+      "unpin": "Unpin the window",
+      "dark_theme": "Apply a dark theme",
+      "light_theme": "Apply a light theme",
+      "switch_lang": "Swith the language"
+    },
+    {
+      "type": "input",
+
+      "copy": "Copy",
+      "cut": "Cut",
+      "paste": "Paste",
+      "undo": "Undo",
+      "redo": "Redo"
+    },
+    {
+      "type": "main_frame",
+      
+      "caption": "UI demonstration",
+      "main_sheet_": "Main sheet",
+      "window_sheet_": "Windows",
+      "button_sheet_": "Buttons",
+      "input_sheet_": "Inputs",
+      "list_sheet_": "Lists",
+      "menu_sheet_": "Menus",
+      "other_sheet_": "Others",
+      "account_btn": "Account manage",
+      "main_menu": "Main menu"
+    },
+    {
+      "type": "main_sheet",
+
+      "main_title": "Welcome"
+    },
+    {
+      "type": "button_sheet",
+
+      "simple0": "A first simple button",
+      "simple1": "A second simple button",
+      "right_text": "Image with right text",
+      "bottom_text": "Image with bottom text",
+      "switcher_text": "Switcher button",
+      "radio0_text": "Radio first",
+      "radio1_text": "Radio second",
+      "anchor_text": "Don't do this",
+      "sheet0_text": "First sheet",
+      "sheet1_text": "Second sheet"
+    }
+
+  ]
+}

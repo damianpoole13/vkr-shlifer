@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\window">
+      <UniqueIdentifier>{f5310fbf-2966-43c4-9380-529f048a628d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\theme">
+      <UniqueIdentifier>{4c5c1a64-8d55-4102-8d42-99f7febc9f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\control">
+      <UniqueIdentifier>{8880b4cf-e54f-430d-9f68-2ecfeaaa67c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphic">
+      <UniqueIdentifier>{95509118-5ace-47ee-a101-02ef55accd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{8e6c47c5-d753-4711-9ad8-a5b3d0dda9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui">
+      <UniqueIdentifier>{3b6346d2-4558-4d82-be95-da81695092ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\graphic">
+      <UniqueIdentifier>{093f0e8d-ad36-4030-bbc6-3f7c2d5c916d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\event">
+      <UniqueIdentifier>{37670d4a-34cb-485e-9e7b-74c2bca88f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\control">
+      <UniqueIdentifier>{8b439cdf-9170-4d9d-a091-8f55f1524c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\common">
+      <UniqueIdentifier>{52f7cf33-215b-4ab3-b0dc-e7db90d9a8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\system">
+      <UniqueIdentifier>{460cb6ac-341e-41a4-be1e-81fd0e225a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\theme">
+      <UniqueIdentifier>{0c39ba94-c8ec-45a0-96cd-cfff068f4eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\window">
+      <UniqueIdentifier>{d82e81ca-abfe-46a9-9da1-7d0fc60ab5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\locale">
+      <UniqueIdentifier>{bf41859f-492a-402e-922c-ca890293dcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\locale">
+      <UniqueIdentifier>{d88d4d94-bac6-4afe-b53d-1a5f9af02471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\config">
+      <UniqueIdentifier>{12d2c0f5-201e-40f3-b720-75660a00307b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\config">
+      <UniqueIdentifier>{1125e8ba-76a9-45d9-ae98-99ccfd2839eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{a1a556c0-d320-4909-b18a-b9da82e629ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wui\framework">
+      <UniqueIdentifier>{e1544303-aed8-496f-bd9c-191a6718bf1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework">
+      <UniqueIdentifier>{cea1b422-bbc0-403d-99d8-a56432d09c6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\wui\common\color.hpp">
+      <Filter>Header Files\wui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\common\rect.hpp">
+      <Filter>Header Files\wui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\button.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\image.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\event\event.hpp">
+      <Filter>Header Files\wui\event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\event\internal_event.hpp">
+      <Filter>Header Files\wui\event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\event\keyboard_event.hpp">
+      <Filter>Header Files\wui\event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\event\mouse_event.hpp">
+      <Filter>Header Files\wui\event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\graphic\graphic.hpp">
+      <Filter>Header Files\wui\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\window\window.hpp">
+      <Filter>Header Files\wui\window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\theme\theme.hpp">
+      <Filter>Header Files\wui\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\theme\i_theme.hpp">
+      <Filter>Header Files\wui\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\i_control.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\window\i_window.hpp">
+      <Filter>Header Files\wui\window</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\input.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\common\bit_helpers.hpp">
+      <Filter>Header Files\wui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\system\system_context.hpp">
+      <Filter>Header Files\wui\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\common\flag_helpers.hpp">
+      <Filter>Header Files\wui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\system\tools.hpp">
+      <Filter>Header Files\wui\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\system\timer.hpp">
+      <Filter>Header Files\wui\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\tooltip.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\theme\theme_impl.hpp">
+      <Filter>Header Files\wui\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\common\font.hpp">
+      <Filter>Header Files\wui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\menu.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\list.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\select.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\message.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\text.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\locale\i_locale.hpp">
+      <Filter>Header Files\wui\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\locale\locale.hpp">
+      <Filter>Header Files\wui\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\locale\locale_impl.hpp">
+      <Filter>Header Files\wui\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\splitter.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\progress.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\slider.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\panel.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\tray_icon.h">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\event\system_event.hpp">
+      <Filter>Header Files\wui\event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\graphic\primitive_container.hpp">
+      <Filter>Header Files\wui\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\config\config.hpp">
+      <Filter>Header Files\wui\config</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\config\config_impl_reg.hpp">
+      <Filter>Header Files\wui\config</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\config\i_config.hpp">
+      <Filter>Header Files\wui\config</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\system\string_tools.hpp">
+      <Filter>Header Files\wui\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\system\path_tools.hpp">
+      <Filter>Header Files\wui\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\system\wm_tools.hpp">
+      <Filter>Header Files\wui\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\system\uri_tools.hpp">
+      <Filter>Header Files\wui\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\system\clipboard_tools.hpp">
+      <Filter>Header Files\wui\system</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\locale\locale_selector.hpp">
+      <Filter>Header Files\wui\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\locale\locale_type.hpp">
+      <Filter>Header Files\wui\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\theme\theme_selector.hpp">
+      <Filter>Header Files\wui\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\common\error.hpp">
+      <Filter>Header Files\wui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\framework\framework.hpp">
+      <Filter>Header Files\wui\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\framework\framework_win_impl.hpp">
+      <Filter>Header Files\wui\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\framework\i_framework.hpp">
+      <Filter>Header Files\wui\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\common\alignment.hpp">
+      <Filter>Header Files\wui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\control\scroll.hpp">
+      <Filter>Header Files\wui\control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wui\common\orientation.hpp">
+      <Filter>Header Files\wui\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\control\button.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\image.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\theme\theme.cpp">
+      <Filter>Source Files\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\window.cpp">
+      <Filter>Source Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\input.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\graphic.cpp">
+      <Filter>Source Files\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\tools.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\tooltip.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\theme\theme_impl.cpp">
+      <Filter>Source Files\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\menu.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\list.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\select.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\text.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\locale.cpp">
+      <Filter>Source Files\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\locale_impl.cpp">
+      <Filter>Source Files\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\message.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\splitter.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\progress.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\slider.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\panel.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\tray_icon.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\primitive_container.cpp">
+      <Filter>Source Files\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config\config.cpp">
+      <Filter>Source Files\config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config\config_impl_reg.cpp">
+      <Filter>Source Files\config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\path_tools.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\wm_tools.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\uri_tools.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\clipboard_tools.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\locale_selector.cpp">
+      <Filter>Source Files\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="src\locale\locale_type.cpp">
+      <Filter>Source Files\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="src\theme\theme_selector.cpp">
+      <Filter>Source Files\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\error.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\framework_win_impl.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\framework.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\control\scroll.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\dark.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\en_locale.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ru_locale.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\light.json">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
